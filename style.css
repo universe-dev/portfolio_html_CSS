@@ -163,6 +163,10 @@ main {
     padding: 30px;
 }
 
+.resume-btn {
+    display: flex;
+    justify-content: center;
+}
 
 .myresume {
     display: flex;
@@ -173,6 +177,10 @@ main {
 .resume-content {
     margin-top: 30px;
     border-bottom: 2px solid grey;
+}
+
+.resume-container :last-child {
+    border: none;
 }
 
 .content-sub-title {
@@ -197,6 +205,11 @@ main {
     font-weight: 700;
     font-size: 25px;
     color: #474747;
+}
+
+.mybtn {
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 /* Contact styles */
